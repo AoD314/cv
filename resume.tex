@@ -1,0 +1,112 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvtheme[purple]{classic}
+\usepackage[utf8]{inputenc}
+\usepackage[unicode]{hyperref}
+
+\usepackage{geometry}
+\geometry{left=2.0cm}
+\geometry{right=1.5cm}
+\geometry{top=1.0cm}
+\geometry{bottom=1.5cm}
+
+\firstname{Andrey}
+\familyname{Morozov}
+\address{}{Nizhny Novgorod, Russia}
+\mobile{+7 920 065 2775}
+\email{morozov.andrey.vmk@gmail.com}
+\homepage{https://github.com/aod314/}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\moderncvcolor{green} 
+
+\begin{document}
+\maketitle
+\section{Brief description}
+\cvline
+  {}
+  {My main direction is system programming.\newline{}
+  I really enjoy OpenSource software and do my best to develop and contribute OpenSource projects which I'm interested in.}
+
+\section{Main contribute to OpenSource Projects}
+\cvline
+  {opencv}
+  {\url{https://github.com/itseez/opencv}\newline{}
+  Open Source Computer Vision Library (\url{http://opencv.org})}
+
+\cvline
+  {mpv}
+  {\url{https://github.com/mpv-player/mpv}\newline{}
+  Video player based on MPlayer/mplayer2 (\url{http://mpv.io})}
+
+\cvline
+  {agile}
+  {
+  \url{https://github.com/unn-vmk-software/agile-course-theory}\newline{}
+  \url{https://github.com/unn-vmk-software/agile-course-practice}\newline{}
+  Master course on Agile Development (theory and practice)
+  }
+
+%\cvline
+%  {ninja}
+%  {\url{https://github.com/martine/ninja}\newline{}
+%  A small build system with a focus on speed  (\url{http://martine.github.io/ninja/})}
+  
+\section{Experience}
+\cventry
+  {Jun 2005 - May 2010}
+  {School \#91}
+  {Nizhny Novgorod, Russia}
+  {}{}
+  {Teacher of additional education. Administrator of computer class.}
+\cventry
+  {Sep 2009 - now}
+  {Itseez}
+  {Nizhny Novgorod, Russia}
+  {}{}
+  {Software Engineer}
+
+\subsection{Extra}
+\cventry
+  {May 2012}
+  {Building}
+  {Kamchia, Bulgaria}
+  {}{}
+  {Advised the builders on the construction of the planetarium.}
+  
+\cventry
+  {2010-2011}
+  {Continuous Integration}
+  {}
+  {}{}
+  {Buildbot for OpenCV project (\url{build.opencv.org})}
+
+\section{Development skills}
+\cvline
+  {Programming Languages}{c/c++, python, java/c\#, latex}
+\section{Computer skills}
+  \cvline
+  {IDE}{\textbf{QtCreator}, MS Visual Studio, IntelliJ IDEA}
+  \cvline
+  {Other Tools}{\textbf{Vim}, Sublime text, Bash}
+  \cvline  {OS}{Linux (\textbf{Gentoo}, Ubuntu), Windows}
+  \cvline
+  {VCS}{\textbf{Git}}
+  \cvline
+  {Development technics}{Agile: TDD, Continuous Integration, XP, Scrum, Lean, Kanban}
+  \cvline
+  {Build systems and compilers}{cmake $\to$ ninja, gcc, clang}
+
+\section{Education}
+  \cventry
+    {2005 - 2011}
+    {Lobachevsky State University}
+    {Nizhny Novgorod, Russia}
+    {}{}
+    {Faculty of Computational Mathematics and Cybernetics. Department of computer software.\newline{}
+    Master's Degree}
+
+\end{document}
