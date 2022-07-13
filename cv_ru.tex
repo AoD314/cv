@@ -1,0 +1,138 @@
+\documentclass[12pt,a4paper]{moderncv}
+
+\moderncvtheme[purple]{classic}
+\usepackage[utf8]{inputenc}
+\usepackage[unicode]{hyperref}
+\usepackage[english,russian]{babel}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{mathtext}
+\usepackage[T1,T2A]{fontenc}
+
+
+\usepackage{geometry}
+\geometry{left=2.0cm}
+\geometry{right=1.5cm}
+\geometry{top=1.0cm}
+\geometry{bottom=1.5cm}
+
+\firstname{Андрей}
+\familyname{Морозов}
+\address{}{Нижний Новгород, Россия}
+\mobile{+7 920 065 27 75}
+\email{morozov.andrey.vmk@gmail.com}
+\homepage{https://github.com/aod314/}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\moderncvcolor{green}
+
+\begin{document}
+\maketitle
+
+\section{О себе}
+Разносторонний специалист в области алгоритмов компьютерного зрения, аппаратной архитектуры, управления проектами, тестирования и автоматизация и оптимизация технических процессов сборки и развертывания программных систем.
+
+\section{Опыт}
+\cventry{\textbf{Ноябрь 2020 - текущий момент}}
+	{NVIDIA}{Нижний Новгород, Россия}{}{}
+	{DevOps инженер}
+
+\cventry{}
+	{Оптимизация}{Ноябрь 2020 - текущий момент}{}{}
+	{Оптимизация процессов CI, Развертывание на различных операционных системах и архитектурах.}
+
+\cventry{\textbf{Июнь 2017 - Ноябрь 2020}}
+	{Aquantia/Marvell Semiconductor}{Нижний Новгород, Россия}{}{}
+	{QA инженер}
+
+\cventry{}
+	{Автотесты}{2017-2018}{}{}
+	{Написание автоматических тестов и мультиплатформенные скрипты автоматизации.}
+
+\cventry{}
+	{Тестирование PHY}{2018-2019}{}{}
+	{Написание различных тестов для PHY.}
+
+\cventry{}
+	{CI/CD}{2019-2020}{}{}
+	{Поддержка и улучшения существующей CI/CD системы.}
+
+\cventry{\textbf{Ноябрь 2015 - Июнь 2017}}
+	{АНКХ-НН}{Нижний Новгород, Россия}{}{}
+	{Генеральный директор}
+
+\cventry{}
+	{HighLoad}{Сентябрь 2016 - Июнь 2017}{}{}
+	{Разработка и реализация веб приложения для высоканагруженных систем.}
+
+\cventry{\textbf{Сентябрь 2009 - Апрель 2016}}
+	{Itseez}{Нижний Новгород, Россия}{}{}
+	{Инженер по програмному обеспечению}
+
+\cventry{}
+	{CI}{2010-2011}{}{}
+	{Развертывание CI системы Buildbot для проекта OpenCV \newline (\url{http://build.opencv.org/buildbot})}
+
+\cventry{}
+	{Строительство}{Май 2012 - Сентябрь 2012}{Камчия, Болгария}{}
+	{Надзор по строительству, монтаж, пуско-наладочные работы цифровой системы планетария.}
+
+\cventry{}
+	{2D/3D компьютерное зрение}{Сентябрь 2012 - Январь 2014}{} {}
+	{Калибровка RGB камер для построения карты глубины. Создание приложений для Android. Управление командой.}
+
+\cventry{}
+	{Оптимизация}{Январь 2014 - Апрель 2016}{}{}
+	{Низкоуровневая оптимизация алгоритмов компьютерного зрения в бибилиотке OpenCV для специальной архитектуры(DSP)}
+
+\cventry{\textbf{Jun 2005 - May 2010}}
+	{Школа \#91}{Нижний Новгород, Россия}{}{}
+	{Педагог дополнительного образования. Адмитистратор компьютерного класса.}
+
+\section{Образование}
+  \cventry
+    {2005 - 2011}
+    {Университет Лобачевского, ННГУ}
+    {Нижний Новгород, Россия}
+    {}{}
+    {Факультет прикладной математики и кибернетики. Кафедра компьютерного программного обеспечения.\newline{}
+    Степень магистра}
+
+
+\section{Основные навыки}
+\cvline  {Языки программирования}{python, bash, c/c++}
+\cvline  {Операционные системы}{Linux, Windows, macOS}
+\cvline  {Техники разработки ПО}{\textbf{Agile:} TDD, Continuous Integration, XP, Scrum, Lean, Kanban}
+\cvline  {Системы контроля версий}{Git}
+\cvline  {Инструменты}{vim, sublime text, cmake, ninja, gcc/clang, docker, k8s, jenkins}
+\cvline  {Библиотеки}{opencv, tbb, cuda, opencl, postgresql, pytest}
+
+\section{Редкоиспользуемые навыки}
+\cvline {Языки программирования}{\LaTeX, Go, Rust}
+
+\section{Интересы}
+\cvline { }{DevOps, CI/CD, Optimization, HighLoad, QA, BigData}
+
+
+\section{Вклад в проекты с открытым исходным кодом}
+\cvline
+  {opencv}
+  {\url{https://github.com/itseez/opencv}\newline{}
+  Библиотека компьютерного зрения (\url{http://opencv.org})}
+
+\cvline
+  {mpv}
+  {\url{https://github.com/mpv-player/mpv}\newline{}
+  Видео плеер mpv основанный на кодовой базе MPlayer/mplayer2 \newline (\url{http://mpv.io})}
+
+\cvline
+  {agile}
+  {
+  \url{https://github.com/unn-vmk-software/agile-course-theory}\newline{}
+  \url{https://github.com/unn-vmk-software/agile-course-practice}\newline{}
+  Основной курс по гибким методологиям разработки (теория и практика)
+  }
+
+\end{document}
